@@ -1,20 +1,26 @@
-﻿using System.Resources;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // La información general sobre un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos atributos para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("ServiceWebTutorial")]
+[assembly: AssemblyTitle("ConsoleMaini")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ServiceWebTutorial")]
+[assembly: AssemblyProduct("ConsoleMaini")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: NeutralResourcesLanguage("es")]
+
+// Si establece ComVisible como false, los tipos de este ensamblado no estarán visibles 
+// para los componentes COM.  Si necesita obtener acceso a un tipo de este ensamblado desde 
+// COM, establezca el atributo ComVisible como true en este tipo.
+[assembly: ComVisible(false)]
+
+// El siguiente GUID sirve como identificador de typelib si este proyecto se expone a COM
+[assembly: Guid("edbedcdf-50cd-468e-a378-094026e874cf")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
